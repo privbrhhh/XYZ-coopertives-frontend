@@ -1,0 +1,47 @@
+body {
+    background: #f2f2f2;
+}
+
+.section-wrapper {
+    max-width: 950px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.page-title {
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb-text {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.service-card {
+    background: #1c214a; /* dark navy from figma */
+    padding: 18px 22px;
+    border-radius: 10px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-3px);
+}
+
+.service-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.service-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #e5e5e5;
+    margin: 0;
+}
