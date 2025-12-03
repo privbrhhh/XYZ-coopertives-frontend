@@ -19,6 +19,20 @@
 </head>
 
 <body>
+
+<div id="header">
+     <script>
+    fetch("header.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+    })
+    .catch(error => console.error("Failed to load header:", error));
+       </script>
+</div>
+
+
+
     <div class="container my-5">
 
     <!-- PAGE TITLE -->
@@ -88,8 +102,16 @@
 </div>
 
 
-
-
+<!--footer-->
+  <div id="footer">
+  <script>
+      fetch("footer.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("footer").innerHTML = data;
+      })
+      .catch(error => console.error("Failed to load footer:", error));
+  </script></div>
 
 
 
