@@ -1,0 +1,39 @@
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-line {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-copy {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner {
+        height: 220px;
+    }
+}
