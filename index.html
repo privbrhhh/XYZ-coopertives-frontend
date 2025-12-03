@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <div id="header"></div>
+  <div id="header">
 <script>
     fetch("header.html")
     .then(response => response.text())
@@ -31,7 +31,7 @@
     })
     .catch(error => console.error("Failed to load header:", error));
 </script>
-
+</div>
 
 
 <!--banner-->
@@ -410,7 +410,7 @@
     </div>
 </section>
 
-  <div id="footer"></div>
+  <div id="footer">
   <script>
       fetch("footer.html")
       .then(response => response.text())
@@ -419,5 +419,6 @@
       })
       .catch(error => console.error("Failed to load footer:", error));
   </script>
+  </div>
 
 </body>
